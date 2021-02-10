@@ -3,7 +3,7 @@ Used to make json db'ing easier
 
 Usage:
 ```py
-import json-easy as json
+import json_easy as json
 db = json.db('path/to/db.json')
 #in a function
 await db.changeval('somekey', 'someval')
