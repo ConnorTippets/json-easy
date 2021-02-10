@@ -14,7 +14,7 @@ class DB:
         await self.close()
     
     async def getval(self, key):
-        return self.db[key]
+        return self.db.get(key) or None
     
     async def removeval(self, key):
         del self.db[key]
