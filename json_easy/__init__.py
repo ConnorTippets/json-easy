@@ -5,7 +5,7 @@ class DB:
         self.path = path
         self.raw_json_writable = open(self.path, 'w')
         self.raw_json = open(self.path, 'r')
-        self.db = json.load(raw_json)
+        self.db = json.load(self.raw_json)
         self.raw_json.close()
     
     async def setval(self, key, val):

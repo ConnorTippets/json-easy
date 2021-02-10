@@ -5,7 +5,7 @@ with open('README.md') as f:
 
 setup(
     name='json_easy',
-    version='1.1.1',
+    version='1.1.2',
     description='Json DB\'s made easy',
     long_description_content_type="text/markdown",
     long_description=long_description,
