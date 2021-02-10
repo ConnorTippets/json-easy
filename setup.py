@@ -10,7 +10,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     url='https://github.com/ConnorTippets/json-easy/',
-    author='ConnorTippets',
+    author='meiscool466',
     license='MIT',
     packages=["json_easy"],
     python_requires=">=3.8",
